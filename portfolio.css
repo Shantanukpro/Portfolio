@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+html {
+  scroll-behavior: smooth !important;
+}
+body {
+  font-family: "Inter", serif;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-around !important;
+}
+
+#hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#about:hover {
+    color: white;
+}
+footer {
+  display: flex !important;
+  font-size: 0.9rem;
+}
+.logo {
+  width: 50px;
+  object-fit: contain;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+}
+.card {
+  transition: all 0.5s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.html:hover {
+  background: linear-gradient(135deg, #f1f1f8 15%, #ff771d 85%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.css:hover {
+  background: linear-gradient(135deg, #f1f1f8 15%, #0566bc 85%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.js:hover {
+  background: linear-gradient(135deg, #ffff02 10%, #727272 90%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.bootstrap:hover {
+  background: linear-gradient(135deg, #a893ed 10%, #6e13f7 90%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.python:hover {
+  background: linear-gradient(135deg, #005d97 0%, hsl(59, 97%, 72%) 100%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.java:hover {
+  background: linear-gradient(135deg, #feb699 0%, #70bae8 100%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.cpp:hover {
+  background: linear-gradient(135deg, #b9e4ff 15%, #025080 85%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
+.c:hover {
+  background: linear-gradient(135deg, #b9e4ff 15%, #025080 85%);
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
